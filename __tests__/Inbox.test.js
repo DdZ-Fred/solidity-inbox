@@ -12,13 +12,17 @@ class Car {
     }
 }
 
+let car = null;
+
+beforeEach(() => {
+    car = new Car();
+})
+
 describe('Car', () => {
     it('should return "stopped" when parked', () => {
-        const car = new Car()
         expect(car.park()).toEqual('stopped')
     })
     it('should return "vroom" when driving', () => {
-        const car = new Car()
         expect(car.drive()).toEqual('vroom')
     })
 })

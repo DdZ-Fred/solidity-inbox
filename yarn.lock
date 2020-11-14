@@ -6428,6 +6428,11 @@ rlp@^2.0.0, rlp@^2.2.1, rlp@^2.2.2, rlp@^2.2.3, rlp@^2.2.4:
   dependencies:
     bn.js "^4.11.1"
 
+rome@^10.0.4-beta:
+  version "10.0.4-beta"
+  resolved "https://registry.yarnpkg.com/rome/-/rome-10.0.4-beta.tgz#67f2605b11462496da68ef9b15cb7ff2f4965862"
+  integrity sha512-wDD/ZdImSt7Cg1/u3TxIBjIs56tEhPmXV/Rry1nExV+RogaLaF1IXTUbYNXDFzXBk9fEg+gnBovkY4WN/f41WQ==
+
 rsvp@^4.8.4:
   version "4.8.5"
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-4.8.5.tgz#c8f155311d167f68f21e168df71ec5b083113734"
@@ -7332,7 +7337,7 @@ universalify@^0.1.0:
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
   integrity sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==
 
-unorm@^1.3.3:
+unorm@^1.3.3, unorm@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/unorm/-/unorm-1.6.0.tgz#029b289661fba714f1a9af439eb51d9b16c205af"
   integrity sha512-b2/KCUlYZUeA7JFUuRJZPUtr4gZvBh7tavtv4fvk4+KV9pfGiR6CQAQAWl49ZpR3ts2dk4FYkP7EIgDJoiOLDA==
